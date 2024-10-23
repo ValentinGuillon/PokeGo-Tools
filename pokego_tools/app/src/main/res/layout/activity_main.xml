@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFCB05"
+    android:padding="25dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="PokeGO\nName Giver"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="40dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Shadow"/>
+
+            <CheckBox
+                android:id="@+id/checkbox_shadow"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:buttonTint="#3ABF2D"
+                android:buttonTintMode="multiply"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Stats"/>
+
+            <EditText
+                android:id="@+id/editText_stats"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="att def hp"
+                android:maxLines="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:inputType="text"/>
+            <!--
+            // EditText découpé en 3
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/editText_stats_att"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="att"
+                    android:maxLines="1"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:inputType="number"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:id="@+id/editText_stats_def"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="def"
+                    android:maxLines="1"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:inputType="number"/>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"/>
+
+                <EditText
+                    android:id="@+id/editText_stats_hp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="4"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:hint="hp"
+                    android:maxLines="1"
+                    android:background="@color/white"
+                    android:textColor="@color/black"
+                    android:inputType="number"/>
+
+
+            </LinearLayout>
+
+
+            -->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="IVs"/>
+
+            <EditText
+                android:id="@+id/editText_ivs"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:hint="att def hp"
+                android:maxLines="1"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:inputType="text"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/button_validate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABF2D"
+            android:text="VALIDATE"/>
+
+        <EditText
+            android:id="@+id/editText_validate"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:hint="name"
+            android:maxLines="1"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:inputType="text" />
+    </LinearLayout>
+
+
+</LinearLayout>
