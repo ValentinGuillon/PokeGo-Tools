@@ -1,5 +1,6 @@
 package com.example.pokego_tools
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.widget.Button
@@ -8,7 +9,7 @@ import android.widget.EditText
 import androidx.appcompat.app.AppCompatActivity
 
 
-class MainActivity : AppCompatActivity() {
+class NameGiver : AppCompatActivity() {
     private lateinit var statsLayout: EditText
     private lateinit var ivsLayout: EditText
     private lateinit var shadowLayout: CheckBox
@@ -19,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.name_giver)
 //        enableEdgeToEdge()
 //        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
 //            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
@@ -34,6 +35,15 @@ class MainActivity : AppCompatActivity() {
 
         listenCheckShadow()
         listenValidation()
+        listenClose()
+    }
+
+    private fun listenClose() {
+        val btnClose = findViewById<Button>(R.id.btn_close)
+        btnClose.setOnClickListener {
+            val home = Intent(this, MainMenu::class.java)
+            startActivity(home)
+        }
     }
 
 
