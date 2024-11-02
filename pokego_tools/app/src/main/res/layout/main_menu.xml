@@ -34,6 +34,13 @@
             android:backgroundTint="#3ABF2D"
             android:text="NAME GIVER"/>
 
+        <Button
+            android:id="@+id/button_type_efficiency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#3ABF2D"
+            android:text="TYPE EFFICIENCY"/>
+
     </LinearLayout>
 
     <Space

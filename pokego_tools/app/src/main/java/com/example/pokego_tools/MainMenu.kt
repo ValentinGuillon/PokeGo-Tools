@@ -13,6 +13,7 @@ class MainMenu : AppCompatActivity() {
         setContentView(R.layout.main_menu)
 
         listenNameGiver()
+        listenTypeEfficiency()
     }
 
 
@@ -29,5 +30,13 @@ class MainMenu : AppCompatActivity() {
         startActivity(switchActivity)
     }
 
+    private fun listenTypeEfficiency() {
+        val buttonTypeEfficiency = findViewById<Button>(R.id.button_type_efficiency)
+
+        buttonTypeEfficiency.setOnClickListener {
+            val switchActivity = Intent(this, TypeEfficiency::class.java);
+            startActivity(switchActivity)
+        }
+    }
 }
 

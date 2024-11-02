@@ -13,6 +13,7 @@
         android:theme="@style/Theme.PokegoTools"
         tools:targetApi="31">
         <activity android:name=".NameGiver" />
+        <activity android:name=".TypeEfficiency" />
         <activity
             android:name=".MainMenu"
             android:exported="true">
