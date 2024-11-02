@@ -35,7 +35,9 @@ class NameGiver : AppCompatActivity() {
 
         listenCheckShadow()
         listenValidation()
+        listenClearAll()
         listenClose()
+        listenFocuses()
     }
 
     private fun listenClose() {
@@ -53,6 +55,28 @@ class NameGiver : AppCompatActivity() {
         }
     }
 
+
+    private fun listenClearAll() {
+        val btnClear = findViewById<Button>(R.id.btn_clear_all)
+        btnClear.setOnClickListener {
+            statsLayout.setText("")
+            ivsLayout.setText("")
+            nameLayout.setText("")
+            shadowLayout.isChecked = false
+            shadow = false
+        }
+    }
+
+    private fun listenFocuses() {
+        statsLayout.setOnFocusChangeListener { _, hasFocus ->
+            if (hasFocus) { statsLayout.setText("") }
+
+        }
+        ivsLayout.setOnFocusChangeListener { _, hasFocus ->
+            if (hasFocus) { ivsLayout.setText("") }
+
+        }
+    }
 
     private fun listenValidation() {
         val buttonValidate = findViewById<Button>(R.id.button_validate)
