@@ -1,5 +1,6 @@
 package com.example.pokego_tools
 
+import android.content.Intent
 import android.os.Bundle
 import android.text.Editable
 import android.widget.Button
@@ -34,6 +35,15 @@ class NameGiver : AppCompatActivity() {
 
         listenCheckShadow()
         listenValidation()
+        listenClose()
+    }
+
+    private fun listenClose() {
+        val btnClose = findViewById<Button>(R.id.btn_close)
+        btnClose.setOnClickListener {
+            val home = Intent(this, MainMenu::class.java)
+            startActivity(home)
+        }
     }
 
 
