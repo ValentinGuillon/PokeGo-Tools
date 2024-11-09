@@ -13,7 +13,7 @@ class MainMenu : AppCompatActivity() {
         setContentView(R.layout.main_menu)
 
         listenNameGiver()
-        listenTypeEfficiency()
+        listenTypeRelations()
     }
 
 
@@ -30,10 +30,10 @@ class MainMenu : AppCompatActivity() {
         startActivity(switchActivity)
     }
 
-    private fun listenTypeEfficiency() {
-        val buttonTypeEfficiency = findViewById<Button>(R.id.button_type_efficiency)
+    private fun listenTypeRelations() {
+        val buttonTypeRelations = findViewById<Button>(R.id.button_type_relations)
 
-        buttonTypeEfficiency.setOnClickListener {
+        buttonTypeRelations.setOnClickListener {
             val switchActivity = Intent(this, TypeRelations::class.java);
             startActivity(switchActivity)
         }

@@ -35,7 +35,7 @@
             android:text="NAME GIVER"/>
 
         <Button
-            android:id="@+id/button_type_efficiency"
+            android:id="@+id/button_type_relations"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#3ABF2D"
