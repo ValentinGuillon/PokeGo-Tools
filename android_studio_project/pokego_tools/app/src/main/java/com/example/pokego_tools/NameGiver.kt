@@ -6,6 +6,7 @@ import android.text.Editable
 import android.widget.Button
 import android.widget.CheckBox
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 
@@ -93,6 +94,12 @@ class NameGiver : AppCompatActivity() {
 
         val stats = strListToIntList(statsStr.split(" "))
         val ivs = strListToIntList(ivsStr.split(" "))
+
+        if (stats.isEmpty() or ivs.isEmpty()) {
+            Toast.makeText(this, "Must give 3 numbers separated by space", Toast.LENGTH_SHORT).show()
+            return
+        }
+
         val overall = mergeLists(stats, ivs, shadow)
 
 
@@ -123,7 +130,15 @@ class NameGiver : AppCompatActivity() {
     private fun strListToIntList (l: List<String>) : List<Int> {
         val res: MutableList<Int> = mutableListOf()
         val i = l.listIterator()
-        i.forEach { v -> res.add(v.toInt())}
+
+        try {
+            i.forEach { v -> res.add(v.toInt())}
+        } catch (_: NumberFormatException) {
+            res.clear()
+        }
+
+        // Return empty list if there is not enough numbers (=3)
+        if (res.count() != 3) { res.clear() }
         return res
     }
 }
