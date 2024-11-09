@@ -13,6 +13,7 @@ class MainMenu : AppCompatActivity() {
         setContentView(R.layout.main_menu)
 
         listenNameGiver()
+        listenTypeRelations()
     }
 
 
@@ -29,5 +30,13 @@ class MainMenu : AppCompatActivity() {
         startActivity(switchActivity)
     }
 
+    private fun listenTypeRelations() {
+        val buttonTypeRelations = findViewById<Button>(R.id.button_type_relations)
+
+        buttonTypeRelations.setOnClickListener {
+            val switchActivity = Intent(this, TypeRelations::class.java);
+            startActivity(switchActivity)
+        }
+    }
 }
 
