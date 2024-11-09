@@ -102,9 +102,11 @@ class NameGiver : AppCompatActivity() {
 
         val overall = mergeLists(stats, ivs, shadow)
 
+        val averageDefHP: Double = (overall[1] + overall[2]) / 2
+        val diffDefHP: String = diffFormated(overall[1], overall[2])
 
 //        val text = "[${statsStr}] + [${ivsStr}] + [${shadow}]"
-        val text = "${overall[0].toInt()}(${ivs[0]})(${ivs[1]})(${ivs[2]})"
+        val text = "${overall[0].toInt()}(${ivs[0]})(${ivs[1]})(${ivs[2]})${averageDefHP.toInt()}${diffDefHP}"
 
 //        nameLayout.text = "[${stats}] [${ivs}] [${shadow}]"
         nameLayout.text = Editable.Factory.getInstance().newEditable(text)
@@ -124,6 +126,17 @@ class NameGiver : AppCompatActivity() {
 
         return res
 
+    }
+
+
+    private fun diffFormated(a:Double, b:Double) : String {
+        var res = (a - b) / 2
+        var symbol = ">"
+        if (res < 0) {
+            symbol = "<"
+            res = res - res - res
+        }
+        return "${symbol}${res.toInt()}"
     }
 
 
