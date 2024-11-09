@@ -1,0 +1,848 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NameGiver"
+    android:background="#FFCB05"
+    android:padding="25dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="PokeGO\nType Relations"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="4"
+                android:text="@string/back_home"
+                android:backgroundTint="#AD8900"/>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="5"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:orientation="vertical">
+
+
+
+        <GridLayout
+            android:id="@+id/buttons_layout"
+            android:layout_height="0dp"
+            android:layout_width="match_parent"
+            android:layout_weight="2"
+            android:rowCount="3"
+            android:columnCount="6">
+
+            <ImageButton
+                android:tag="acier"
+                android:id="@+id/btn_acier"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_acier"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="combat"
+                android:id="@+id/btn_combat"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_combat"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="dragon"
+                android:id="@+id/btn_dragon"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_dragon"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="eau"
+                android:id="@+id/btn_eau"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_eau"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="electrik"
+                android:id="@+id/btn_electrik"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_electrik"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="fee"
+                android:id="@+id/btn_fee"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_fee"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+
+
+            <ImageButton
+                android:tag="feu"
+                android:id="@+id/btn_feu"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_feu"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="glace"
+                android:id="@+id/btn_glace"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_glace"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="insecte"
+                android:id="@+id/btn_insecte"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_insecte"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="normal"
+                android:id="@+id/btn_normal"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_normal"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="plante"
+                android:id="@+id/btn_plante"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_plante"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="poison"
+                android:id="@+id/btn_poison"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_poison"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="psy"
+                android:id="@+id/btn_psy"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_psy"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="roche"
+                android:id="@+id/btn_roche"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_roche"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="sol"
+                android:id="@+id/btn_sol"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_sol"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="spectre"
+                android:id="@+id/btn_spectre"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_spectre"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="tenebres"
+                android:id="@+id/btn_tenebres"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_tenebres"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+            <ImageButton
+                android:tag="vol"
+                android:id="@+id/btn_vol"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_columnWeight="1"
+                android:layout_rowWeight="1"
+                android:src="@drawable/pokemon_type_vol"
+                android:background="@null"
+                android:scaleType="fitCenter"
+                />
+
+        </GridLayout>
+
+
+        <LinearLayout
+            android:id="@+id/resistances_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Resistances" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:gravity="center_horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="- -"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <GridLayout
+                        android:id="@+id/super_weak"
+                        android:layout_height="0dp"
+                        android:layout_width="match_parent"
+                        android:rowCount="4"
+                        android:columnCount="5"
+                        android:orientation="vertical"
+                        android:layout_weight="9">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+
+                    </GridLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="-"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <GridLayout
+                        android:id="@+id/very_weak"
+                        android:layout_height="0dp"
+                        android:layout_width="match_parent"
+                        android:rowCount="4"
+                        android:columnCount="5"
+                        android:orientation="vertical"
+                        android:layout_weight="9">
+
+
+                    </GridLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="+"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <GridLayout
+                        android:id="@+id/very_resistant"
+                        android:layout_height="0dp"
+                        android:layout_width="match_parent"
+                        android:rowCount="4"
+                        android:columnCount="5"
+                        android:orientation="vertical"
+                        android:layout_weight="9">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+
+                    </GridLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="++"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <GridLayout
+                        android:id="@+id/super_resistance"
+                        android:layout_height="0dp"
+                        android:layout_width="match_parent"
+                        android:rowCount="4"
+                        android:columnCount="5"
+                        android:orientation="vertical"
+                        android:layout_weight="9">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+
+                    </GridLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_marginHorizontal="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:text="+++"
+                        android:gravity="center"
+                        android:layout_gravity="center_horizontal"/>
+
+                    <GridLayout
+                        android:id="@+id/immune"
+                        android:layout_height="0dp"
+                        android:layout_width="match_parent"
+                        android:rowCount="4"
+                        android:columnCount="5"
+                        android:orientation="vertical"
+                        android:layout_weight="9">
+
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+                        <ImageView
+                            android:layout_width="0dp"
+                            android:layout_height="0dp"
+                            android:layout_columnWeight="1"
+                            android:layout_rowWeight="1"
+                            android:src="@drawable/pokemon_type_acier"/>
+
+                    </GridLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/effectiveness_layout"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center"
+            android:layout_weight="3"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Effectiveness" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="6"
+                    android:gravity="center_horizontal">
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginHorizontal="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="- -"
+                            android:gravity="center"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <GridLayout
+                            android:id="@+id/ineffective"
+                            android:layout_height="0dp"
+                            android:layout_width="match_parent"
+                            android:rowCount="4"
+                            android:columnCount="5"
+                            android:orientation="vertical"
+                            android:layout_weight="9">
+
+
+                        </GridLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginHorizontal="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="-"
+                            android:gravity="center"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <GridLayout
+                            android:id="@+id/not_effective"
+                            android:layout_height="0dp"
+                            android:layout_width="match_parent"
+                            android:rowCount="4"
+                            android:columnCount="5"
+                            android:orientation="vertical"
+                            android:layout_weight="9">
+
+
+                        </GridLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginHorizontal="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="!"
+                            android:gravity="center"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <GridLayout
+                            android:id="@+id/cancel_effective"
+                            android:layout_height="0dp"
+                            android:layout_width="match_parent"
+                            android:rowCount="4"
+                            android:columnCount="5"
+                            android:orientation="vertical"
+                            android:layout_weight="9">
+
+
+                        </GridLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:orientation="vertical"
+                        android:layout_marginHorizontal="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            android:text="+"
+                            android:gravity="center"
+                            android:layout_gravity="center_horizontal"/>
+
+                        <GridLayout
+                            android:id="@+id/super_effective"
+                            android:layout_height="0dp"
+                            android:layout_width="match_parent"
+                            android:rowCount="4"
+                            android:columnCount="5"
+                            android:orientation="vertical"
+                            android:layout_weight="9">
+
+
+                        </GridLayout>
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

@@ -34,7 +34,7 @@ class MainMenu : AppCompatActivity() {
         val buttonTypeEfficiency = findViewById<Button>(R.id.button_type_efficiency)
 
         buttonTypeEfficiency.setOnClickListener {
-            val switchActivity = Intent(this, TypeEfficiency::class.java);
+            val switchActivity = Intent(this, TypeRelations::class.java);
             startActivity(switchActivity)
         }
     }
