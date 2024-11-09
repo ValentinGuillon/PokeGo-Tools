@@ -18,6 +18,8 @@ class NameGiver : AppCompatActivity() {
 
     private var shadow: Boolean = false
 
+    private lateinit var symbols: List<String>
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -33,6 +35,7 @@ class NameGiver : AppCompatActivity() {
         ivsLayout = findViewById(R.id.editText_ivs)
         shadowLayout = findViewById(R.id.checkbox_shadow)
         nameLayout = findViewById(R.id.editText_validate)
+        symbols = listOf("⓪", "①", "②", "③", "④", "⑤", "⑥", "⑦", "⑧", "⑨", "⑩", "⑪", "⑫", "⑬", "⑭", "⓯")
 
         listenCheckShadow()
         listenValidation()
@@ -104,8 +107,17 @@ class NameGiver : AppCompatActivity() {
 
         val averageDefHP: Double = (overall[1] + overall[2]) / 2
 
+        val ivsSymbols: List<String>
+        try {
+            ivsSymbols = intToSymbol(ivs)
+        } catch (_:Exception) {
+            Toast.makeText(this, "IVs are between 0 and 15", Toast.LENGTH_SHORT).show()
+            return
+        }
+
+        val ivsFormate = ivsSymbols.fold("") {acc, element -> acc + element.toString()}
 //        val text = "[${statsStr}] + [${ivsStr}] + [${shadow}]"
-        val text = "${overall[0].toInt()}(${ivs[0]})(${ivs[1]})(${ivs[2]})${averageDefHP.toInt()}"
+        val text = "${overall[0].toInt()}${ivsFormate}${averageDefHP.toInt()}"
 
 //        nameLayout.text = "[${stats}] [${ivs}] [${shadow}]"
         nameLayout.text = Editable.Factory.getInstance().newEditable(text)
@@ -124,7 +136,6 @@ class NameGiver : AppCompatActivity() {
         }
 
         return res
-
     }
 
 
@@ -141,5 +152,9 @@ class NameGiver : AppCompatActivity() {
         // Return empty list if there is not enough numbers (=3)
         if (res.count() != 3) { res.clear() }
         return res
+    }
+
+    private fun intToSymbol (numbers: List<Int>): List<String> {
+        return numbers.map { symbols[it] }
     }
 }
