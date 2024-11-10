@@ -125,13 +125,13 @@ object Efficiency {
                     ineffectiveness = listOf("acier")
                 }
                 "psy" -> {
-                    effectiveness = listOf()
-                    notEffectiveness = listOf()
-                    ineffectiveness = listOf()
+                    effectiveness = listOf("combat", "poison")
+                    notEffectiveness = listOf("acier", "psy")
+                    ineffectiveness = listOf("tenebres")
                 }
                 "roche" -> {
-                    effectiveness = listOf()
-                    notEffectiveness = listOf()
+                    effectiveness = listOf("feu", "glace", "insecte", "vol")
+                    notEffectiveness = listOf("acier", "combat", "sol")
                     ineffectiveness = listOf()
                 }
                 "sol" -> {
