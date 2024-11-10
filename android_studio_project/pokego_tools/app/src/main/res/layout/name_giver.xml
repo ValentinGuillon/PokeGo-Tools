@@ -219,7 +219,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="8"
-                android:backgroundTint="#3ABF2D"
+                android:backgroundTint="#3466AF"
                 android:text="VALIDATE"/>
 
             <Button
