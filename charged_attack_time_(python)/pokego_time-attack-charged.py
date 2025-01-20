@@ -5,15 +5,14 @@
 
 
 LOC = './' #location for the used files
-CHARGE_MOVES_FILENAME = 'moves_charge.txt'
-FAST_MOVES_FILENAME = 'moves_fast.txt'
+CHARGE_MOVES_FILENAME = 'moves_charge.json'
+FAST_MOVES_FILENAME = 'moves_fast.json'
 
+import json
 from math import ceil
 
 ATTACK_IMMEDIATE = {}
 ATTACK_CHARGED = {}
-
-SPLITER = ' ... '
 
 
 def format_string(string: str, ignore = False) -> str:
@@ -38,53 +37,18 @@ def extract_attacks():
     filenames = ['immediate', 'charged']
     for type in filenames:
         if type == 'immediate':
-            filename = LOC + CHARGE_MOVES_FILENAME
-        elif type == 'charged':
             filename = LOC + FAST_MOVES_FILENAME
+        elif type == 'charged':
+            filename = LOC + CHARGE_MOVES_FILENAME
 
         with open(filename, 'r') as file:
-            keys = []
-            first = True
-            for line in file:
-                line = line.replace('\n', '')
-                original_name = line.split(SPLITER)[0]
-                bonus = ''
-                if type == 'charged':
-                    bonus = line.split(SPLITER)[3]
-                    bonus = format_string(bonus, True)
-                splitted = format_string(line)
-                splitted = splitted.split(SPLITER)
-                if type == 'charged':
-                    splitted[3] = bonus
-
-                if first:
-                    first = False
-                    keys = splitted
-                    continue
-                
-                attack = ''
-                values = {}
-                values['name'] = original_name
-
-                for i, val in enumerate(splitted):
-                    if i == 0:
-                        attack = val
-                        continue
-                    try:
-                        values[keys[i]] = float(val)
-                        continue
-                    except:
-                        ...
-                    values[keys[i]] = val
-                
-                
-                if type == 'immediate':
-                    ATTACK_IMMEDIATE[attack] = values
-                elif type == 'charged':
-                    ATTACK_CHARGED[attack] = values
-
-
-
+                data:list = json.load(file)
+                for move in data:
+                    name = format_string(move['name'])
+                    if type == 'immediate':
+                        ATTACK_IMMEDIATE[name] = move
+                    elif type == 'charged':
+                        ATTACK_CHARGED[name] = move
 
 
 

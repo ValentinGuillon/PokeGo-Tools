@@ -1,0 +1,482 @@
+[
+    {
+        "name": "Aboiement",
+        "degats": 5.0,
+        "energie": 13.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Acide",
+        "degats": 6.0,
+        "energie": 5.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Ailes d'Acier",
+        "degats": 7.0,
+        "energie": 7.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Anti-Air",
+        "degats": 12.0,
+        "energie": 8.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Bâillement",
+        "degats": 0.0,
+        "energie": 12.0,
+        "duree": 2.0
+    },
+    {
+        "name": "Balayage",
+        "degats": 4.0,
+        "energie": 5.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Balle Graine",
+        "degats": 5.0,
+        "energie": 13.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Bélier",
+        "degats": 5.0,
+        "energie": 8.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Cadeau",
+        "degats": 3.0,
+        "energie": 12.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Calcination",
+        "degats": 20.0,
+        "energie": 20.0,
+        "duree": 2.5
+    },
+    {
+        "name": "Cascade",
+        "degats": 12.0,
+        "energie": 8.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Change Éclair",
+        "degats": 12.0,
+        "energie": 16.0,
+        "duree": 2.0
+    },
+    {
+        "name": "Charge",
+        "degats": 3.0,
+        "energie": 3.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Charme",
+        "degats": 15.0,
+        "energie": 6.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Châtiment",
+        "degats": 6.0,
+        "energie": 12.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Choc Mental",
+        "degats": 16.0,
+        "energie": 12.0,
+        "duree": 2.0
+    },
+    {
+        "name": "Coud'Boue",
+        "degats": 11.0,
+        "energie": 9.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Coup Bas",
+        "degats": 5.0,
+        "energie": 7.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Coupe",
+        "degats": 3.0,
+        "energie": 2.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Coupe Psycho",
+        "degats": 3.0,
+        "energie": 9.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Crocs Éclair",
+        "degats": 8.0,
+        "energie": 5.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Crocs Feu",
+        "degats": 8.0,
+        "energie": 5.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Crocs Givre",
+        "degats": 8.0,
+        "energie": 5.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Cru-Ailes",
+        "degats": 5.0,
+        "energie": 8.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Danse Flammes",
+        "degats": 10.0,
+        "energie": 10.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Dard-Venin",
+        "degats": 3.0,
+        "energie": 9.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Direct Toxik",
+        "degats": 7.0,
+        "energie": 7.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Double Pied",
+        "degats": 8.0,
+        "energie": 12.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Draco-Queue",
+        "degats": 13.0,
+        "energie": 9.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Draco-Souffle",
+        "degats": 4.0,
+        "energie": 3.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Éclair",
+        "degats": 3.0,
+        "energie": 9.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Éclate-Roc",
+        "degats": 9.0,
+        "energie": 7.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Éclats Glace",
+        "degats": 9.0,
+        "energie": 10.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Écras'Face",
+        "degats": 4.0,
+        "energie": 4.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Écume",
+        "degats": 8.0,
+        "energie": 11.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Étincelle",
+        "degats": 5.0,
+        "energie": 7.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Étonnement",
+        "degats": 9.0,
+        "energie": 10.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Extrasenseur",
+        "degats": 8.0,
+        "energie": 10.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Feinte",
+        "degats": 6.0,
+        "energie": 6.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Feuillage",
+        "degats": 6.0,
+        "energie": 7.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Feuille Magik",
+        "degats": 10.0,
+        "energie": 10.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Flammèche",
+        "degats": 7.0,
+        "energie": 6.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Forte-Paume",
+        "degats": 13.0,
+        "energie": 10.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Fouet Lianes",
+        "degats": 5.0,
+        "energie": 8.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Géo-Contrôle",
+        "degats": 4.0,
+        "energie": 13.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Griffe",
+        "degats": 4.0,
+        "energie": 2.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Griffe Acier",
+        "degats": 5.0,
+        "energie": 6.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Griffe Ombre",
+        "degats": 6.0,
+        "energie": 8.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Harcèlement",
+        "degats": 6.0,
+        "energie": 12.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Jet-Pierres",
+        "degats": 8.0,
+        "energie": 5.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Jet de Sable",
+        "degats": 2.0,
+        "energie": 4.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Lame d'Air",
+        "degats": 9.0,
+        "energie": 9.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Léchouille",
+        "degats": 3.0,
+        "energie": 3.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Morphing",
+        "degats": 0.0,
+        "energie": 0.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Morsure",
+        "degats": 4.0,
+        "energie": 2.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Picpic",
+        "degats": 6.0,
+        "energie": 5.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Piqûre",
+        "degats": 3.0,
+        "energie": 3.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Pisto-Poing",
+        "degats": 6.0,
+        "energie": 7.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Pistolet à O",
+        "degats": 3.0,
+        "energie": 3.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Poing Karaté",
+        "degats": 5.0,
+        "energie": 8.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Poudreuse",
+        "degats": 5.0,
+        "energie": 8.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Psykoud'Boul",
+        "degats": 8.0,
+        "energie": 6.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Puissance Cachée",
+        "degats": 9.0,
+        "energie": 8.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Queue de Fer",
+        "degats": 10.0,
+        "energie": 7.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Rayon Chargé",
+        "degats": 5.0,
+        "energie": 11.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Riposte",
+        "degats": 8.0,
+        "energie": 7.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Roulade",
+        "degats": 5.0,
+        "energie": 13.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Sheauriken",
+        "degats": 6.0,
+        "energie": 14.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Souffle Glacé",
+        "degats": 7.0,
+        "energie": 5.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Strido-Son",
+        "degats": 3.0,
+        "energie": 8.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Survinsecte",
+        "degats": 9.0,
+        "energie": 8.0,
+        "duree": 1.5
+    },
+    {
+        "name": "Taillade",
+        "degats": 2.0,
+        "energie": 4.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Tir de Boue",
+        "degats": 3.0,
+        "energie": 9.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Tornade",
+        "degats": 16.0,
+        "energie": 12.0,
+        "duree": 2.0
+    },
+    {
+        "name": "Tranch'Herbe",
+        "degats": 10.0,
+        "energie": 4.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Trempette",
+        "degats": 0.0,
+        "energie": 12.0,
+        "duree": 2.0
+    },
+    {
+        "name": "Vague Psy",
+        "degats": 3.0,
+        "energie": 2.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Vent Féérique",
+        "degats": 3.0,
+        "energie": 9.0,
+        "duree": 1.0
+    },
+    {
+        "name": "Verrouillage",
+        "degats": 1.0,
+        "energie": 6.0,
+        "duree": 0.5
+    },
+    {
+        "name": "Vive-Attaque",
+        "degats": 5.0,
+        "energie": 8.0,
+        "duree": 1.0
+    }
+]

@@ -1,0 +1,1178 @@
+[
+    {
+        "name": "Abattage",
+        "degats": 50.0,
+        "energie": 35.0,
+        "bonus": "-1 Att. (50 %, adversaire)"
+    },
+    {
+        "name": "Acrobatie",
+        "degats": 110.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Aéroblast",
+        "degats": 170.0,
+        "energie": 75.0,
+        "bonus": "+2 Att. (12.5 %, lanceur)"
+    },
+    {
+        "name": "Aéroblast+",
+        "degats": 170.0,
+        "energie": 75.0,
+        "bonus": "+2 Att. (12.5 %, lanceur)"
+    },
+    {
+        "name": "Aéroblast++",
+        "degats": 170.0,
+        "energie": 75.0,
+        "bonus": "+2 Att. (12.5 %, lanceur)"
+    },
+    {
+        "name": "Aéropique",
+        "degats": 55.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Aqua-Brèche",
+        "degats": 70.0,
+        "energie": 45.0,
+        "bonus": "-1 Def. (30 %, adversaire)"
+    },
+    {
+        "name": "Aqua-Jet",
+        "degats": 45.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Aurasphère",
+        "degats": 100.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Avalanche",
+        "degats": 90.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Balayette",
+        "degats": 40.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Ball'Brume",
+        "degats": 120.0,
+        "energie": 60.0,
+        "bonus": "-1 Att. (50 %, adversaire)"
+    },
+    {
+        "name": "Ball'Météo",
+        "degats": 55.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Bang Sonique",
+        "degats": 150.0,
+        "energie": 70.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Ball'Ombre",
+        "degats": 100.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Bec Vrille",
+        "degats": 65.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Blizzard",
+        "degats": 140.0,
+        "energie": 75.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Blocage",
+        "degats": 15.0,
+        "energie": 40.0,
+        "bonus": "-1 Def. (100 %, adversaire) +1 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Bombe Acide",
+        "degats": 20.0,
+        "energie": 45.0,
+        "bonus": "-2 Def. (100 %, adversaire)"
+    },
+    {
+        "name": "Bombe Aimant",
+        "degats": 70.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Bombe Beurk",
+        "degats": 80.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Boue-Bombe",
+        "degats": 60.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Boule Roc",
+        "degats": 50.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Bourdon",
+        "degats": 100.0,
+        "energie": 60.0,
+        "bonus": "-1 Def. (30 %, adversaire)"
+    },
+    {
+        "name": "Bulles d'O",
+        "degats": 25.0,
+        "energie": 40.0,
+        "bonus": "-1 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Câlinerie",
+        "degats": 90.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Canicule",
+        "degats": 95.0,
+        "energie": 75.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Canon Graine",
+        "degats": 65.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Casse-Brique",
+        "degats": 40.0,
+        "energie": 40.0,
+        "bonus": "-1 Def. (100 %, adversaire)"
+    },
+    {
+        "name": "Cavalerie Lourde",
+        "degats": 100.0,
+        "energie": -60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Centrifugifle",
+        "degats": 65.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Choc Météore",
+        "degats": 135.0,
+        "energie": 65.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Choc Psy",
+        "degats": 70.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Close Combat",
+        "degats": 100.0,
+        "energie": 45.0,
+        "bonus": "-2 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Colère",
+        "degats": 110.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Coqui-Lame",
+        "degats": 35.0,
+        "energie": 35.0,
+        "bonus": "-1 Def. (50 %, adversaire)"
+    },
+    {
+        "name": "Coud'Krâne",
+        "degats": 130.0,
+        "energie": 75.0,
+        "bonus": "+1 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Coup Croix",
+        "degats": 55.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Coup d'Jus",
+        "degats": 65.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Coup Victoire",
+        "degats": 95.0,
+        "energie": 40.0,
+        "bonus": "-3 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Cradovague",
+        "degats": 110.0,
+        "energie": 65.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Croc de Mort",
+        "degats": 80.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Crochet Venin",
+        "degats": 45.0,
+        "energie": 40.0,
+        "bonus": "-1 Def. (100 %, adversaire)"
+    },
+    {
+        "name": "Danse Plumes",
+        "degats": 35.0,
+        "energie": 50.0,
+        "bonus": "-2 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Dard Mortel",
+        "degats": 20.0,
+        "energie": 35.0,
+        "bonus": "+1 Att. (100 %, lanceur)"
+    },
+    {
+        "name": "Dark Lariat",
+        "degats": 120.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Déflagration",
+        "degats": 140.0,
+        "energie": 80.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Dernier Recours",
+        "degats": 90.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Désherbaffe",
+        "degats": 65.0,
+        "energie": 50.0,
+        "bonus": "+1 Att. (100 %, lanceur)"
+    },
+    {
+        "name": "Détricanon",
+        "degats": 130.0,
+        "energie": 75.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Détritus",
+        "degats": 50.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Draco-Ascension",
+        "degats": 150.0,
+        "energie": 70.0,
+        "bonus": "-1 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Draco-Choc",
+        "degats": 90.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Draco-Griffe",
+        "degats": 50.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Draco-Météore",
+        "degats": 150.0,
+        "energie": 65.0,
+        "bonus": "-2 Att. (100 %, lanceur)"
+    },
+    {
+        "name": "Dynamo-Poing",
+        "degats": 90.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Éboulement",
+        "degats": 75.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Ébullition",
+        "degats": 85.0,
+        "energie": 50.0,
+        "bonus": "-1 Att. (30 %, adversaire)"
+    },
+    {
+        "name": "Éclair Croix",
+        "degats": 90.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Éclair Fou",
+        "degats": 100.0,
+        "energie": 45.0,
+        "bonus": "-2 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Éclat Magique",
+        "degats": 110.0,
+        "energie": 70.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Éco-Sphère",
+        "degats": 90.0,
+        "energie": 55.0,
+        "bonus": "-1 Def. (10 %, adversaire)"
+    },
+    {
+        "name": "Écrasement",
+        "degats": 55.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Écrous d'Poing",
+        "degats": 50.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Élecanon",
+        "degats": 150.0,
+        "energie": 80.0,
+        "bonus": "-1 Att. (66 %, adversaire)"
+    },
+    {
+        "name": "Électacle",
+        "degats": 90.0,
+        "energie": 50.0,
+        "bonus": "-1 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Ère Glaciaire",
+        "degats": 60.0,
+        "energie": 40.0,
+        "bonus": "-1 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Esprit Frappeur",
+        "degats": 150.0,
+        "energie": 75.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Exploforce",
+        "degats": 150.0,
+        "energie": 75.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Fatal-Foudre",
+        "degats": 100.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Feu Ensorcelé",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "-1 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Feu Sacré",
+        "degats": 130.0,
+        "energie": 65.0,
+        "bonus": "-1 Att. (50 %, adversaire)"
+    },
+    {
+        "name": "Feu Sacré+",
+        "degats": 130.0,
+        "energie": 65.0,
+        "bonus": "-1 Att. (50 %, adversaire)"
+    },
+    {
+        "name": "Feu Sacré++",
+        "degats": 130.0,
+        "energie": 65.0,
+        "bonus": "-1 Att. (50 %, adversaire)"
+    },
+    {
+        "name": "Flamme Croix",
+        "degats": 90.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Flying Press",
+        "degats": 90.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Force Poigne",
+        "degats": 40.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Frappe Psy",
+        "degats": 90.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Frustration",
+        "degats": 10.0,
+        "energie": 70.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Fulmigraine",
+        "degats": 130.0,
+        "energie": 75.0,
+        "bonus": "-2 Def. (40 %, adversaire)"
+    },
+    {
+        "name": "Furie-Bond",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "-1 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Giga Impact",
+        "degats": 150.0,
+        "energie": 80.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Gyroballe",
+        "degats": 80.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Hurle-Temps",
+        "degats": 150.0,
+        "energie": 65.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Hydro-Queue",
+        "degats": 55.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Hydroblast",
+        "degats": 80.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Hydrocanon",
+        "degats": 130.0,
+        "energie": 75.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Ire de la Nature",
+        "degats": 80.0,
+        "energie": 50.0,
+        "bonus": "-1 Def. (100 %, adversaire)"
+    },
+    {
+        "name": "Koud'Korne",
+        "degats": 40.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Lame de Roc",
+        "degats": 100.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Lame Feuille",
+        "degats": 70.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Lame Pangéenne",
+        "degats": 130.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Lame Sainte",
+        "degats": 60.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Lance-Flammes",
+        "degats": 90.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Lance-Soleil",
+        "degats": 150.0,
+        "energie": 80.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Laser Glace",
+        "degats": 90.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Laser Météore",
+        "degats": 120.0,
+        "energie": 60.0,
+        "bonus": "-1 Att. (100 %, lanceur)"
+    },
+    {
+        "name": "Ligotage",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Lumi-Éclat",
+        "degats": 120.0,
+        "energie": 60.0,
+        "bonus": "-1 Def. (50 %, adversaire)"
+    },
+    {
+        "name": "Luminocanon",
+        "degats": 110.0,
+        "energie": 70.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Lutte",
+        "degats": 35.0,
+        "energie": 100.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Mâchouille",
+        "degats": 70.0,
+        "energie": 45.0,
+        "bonus": "-1 Def. (30 %, adversaire)"
+    },
+    {
+        "name": "Massd'Os",
+        "degats": 40.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Mégacorne",
+        "degats": 110.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Mégafouet",
+        "degats": 90.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Météores",
+        "degats": 55.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Mort'Ailes",
+        "degats": 85.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Miroi-Tir",
+        "degats": 35.0,
+        "energie": 35.0,
+        "bonus": "-1 Att. (30 %, adversaire)"
+    },
+    {
+        "name": "Nitrocharge",
+        "degats": 65.0,
+        "energie": 50.0,
+        "bonus": "+1 Att. (100 %, lanceur)"
+    },
+    {
+        "name": "Nœud Herbe",
+        "degats": 90.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Ocroupi",
+        "degats": 35.0,
+        "energie": 35.0,
+        "bonus": "-1 Att. (30 %, adversaire)"
+    },
+    {
+        "name": "Octazooka",
+        "degats": 50.0,
+        "energie": 50.0,
+        "bonus": "-2 Att. (50 %, adversaire)"
+    },
+    {
+        "name": "Ombre Nocturne",
+        "degats": 80.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Ombre Portée",
+        "degats": 50.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Onde Boréale",
+        "degats": 80.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Onde Originelle",
+        "degats": 130.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Os'Ombre",
+        "degats": 80.0,
+        "energie": 45.0,
+        "bonus": "-1 Def. (20 %, adversaire)"
+    },
+    {
+        "name": "Ouragan",
+        "degats": 45.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Parabocharge",
+        "degats": 65.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Phytomixeur",
+        "degats": 45.0,
+        "energie": 40.0,
+        "bonus": "-2 Att. (50 %, adversaire)"
+    },
+    {
+        "name": "Pied Brûleur",
+        "degats": 60.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Pied Voltige",
+        "degats": 110.0,
+        "energie": 55.0,
+        "bonus": "-4 Def. (10 %, lanceur)"
+    },
+    {
+        "name": "Piétisol",
+        "degats": 45.0,
+        "energie": 45.0,
+        "bonus": "-1 Def. (50 %, adversaire)"
+    },
+    {
+        "name": "Pince-Masse",
+        "degats": 85.0,
+        "energie": 50.0,
+        "bonus": "+2 Att. (12.5 %, lanceur)"
+    },
+    {
+        "name": "Piqué",
+        "degats": 85.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Plaie Croix",
+        "degats": 65.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Plaquage",
+        "degats": 50.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Poing Boost",
+        "degats": 20.0,
+        "energie": 35.0,
+        "bonus": "+1 Att. (100 %, lanceur)"
+    },
+    {
+        "name": "Poing Éclair",
+        "degats": 60.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Poing Feu",
+        "degats": 60.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Poing Glace",
+        "degats": 60.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Poing Météore",
+        "degats": 100.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Poing Ombre",
+        "degats": 40.0,
+        "energie": 35.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Poison Croix",
+        "degats": 50.0,
+        "energie": 35.0,
+        "bonus": "+2 Att. (12.5 %, lanceur)"
+    },
+    {
+        "name": "Pouvoir Antique",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "+1 Att. & +1 Def. (10 %, lanceur)"
+    },
+    {
+        "name": "Pouvoir Lunaire",
+        "degats": 110.0,
+        "energie": 60.0,
+        "bonus": "-1 Att. (10 %, adversaire)"
+    },
+    {
+        "name": "Prescience",
+        "degats": 120.0,
+        "energie": 65.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Psycho-Boost",
+        "degats": 70.0,
+        "energie": 35.0,
+        "bonus": "-2 Att. (100 %, lanceur)"
+    },
+    {
+        "name": "Psycho-Croc",
+        "degats": 40.0,
+        "energie": 35.0,
+        "bonus": "-1 Def. (100 %, adversaire)"
+    },
+    {
+        "name": "Psyko",
+        "degats": 75.0,
+        "energie": 55.0,
+        "bonus": "-1 Att. (10 %, adversaire)"
+    },
+    {
+        "name": "Rafale Feu",
+        "degats": 110.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Rafale Psy",
+        "degats": 70.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Rapace",
+        "degats": 130.0,
+        "energie": 55.0,
+        "bonus": "-3 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Rayon Gemme",
+        "degats": 80.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Rayon Signal",
+        "degats": 75.0,
+        "energie": 55.0,
+        "bonus": "-1 Att. & -1 Def. (20 %, adversaire)"
+    },
+    {
+        "name": "Rayon Spectral",
+        "degats": 135.0,
+        "energie": 65.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Rebondifeu",
+        "degats": 70.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Représailles",
+        "degats": 110.0,
+        "energie": 60.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Retour",
+        "degats": 130.0,
+        "energie": 70.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Revenant",
+        "degats": 120.0,
+        "energie": 90.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Roc-Boulet",
+        "degats": 110.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Roue de Feu",
+        "degats": 60.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Sable Ardent",
+        "degats": 80.0,
+        "energie": 50.0,
+        "bonus": "-1 Att. (30 %, adversaire)"
+    },
+    {
+        "name": "Sacrifice",
+        "degats": 60.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Saumure",
+        "degats": 60.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Séisme",
+        "degats": 110.0,
+        "energie": 65.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Spatio-Rift",
+        "degats": 95.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Stalactite",
+        "degats": 65.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Surchauffe",
+        "degats": 130.0,
+        "energie": 55.0,
+        "bonus": "-2 Att. (100 %, lanceur)"
+    },
+    {
+        "name": "Surf",
+        "degats": 75.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Surpuissance",
+        "degats": 85.0,
+        "energie": 40.0,
+        "bonus": "-1 Att. & -1 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Synchropeine",
+        "degats": 80.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Tacle Lourd",
+        "degats": 70.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Techno-Buster",
+        "degats": 120.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Telluriforce",
+        "degats": 90.0,
+        "energie": 55.0,
+        "bonus": "-1 Def. (10 %, adversaire)"
+    },
+    {
+        "name": "Tempête Florale",
+        "degats": 110.0,
+        "energie": 65.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Tempête Verte",
+        "degats": 130.0,
+        "energie": 55.0,
+        "bonus": "-2 Att. (100 %, lanceur)"
+    },
+    {
+        "name": "Tête de Fer",
+        "degats": 70.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Tisse Ombre",
+        "degats": 50.0,
+        "energie": 40.0,
+        "bonus": "-1 Def. (33 %, adversaire)"
+    },
+    {
+        "name": "Tomberoche",
+        "degats": 70.0,
+        "energie": 60.0,
+        "bonus": "-1 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Tonnerre",
+        "degats": 90.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Tourbi-Sable",
+        "degats": 25.0,
+        "energie": 40.0,
+        "bonus": "-1 Def. (100 %, adversaire)"
+    },
+    {
+        "name": "Tranch'Air",
+        "degats": 60.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Tranche-Nuit",
+        "degats": 50.0,
+        "energie": 35.0,
+        "bonus": "+2 Att. (12.5 %, lanceur)"
+    },
+    {
+        "name": "Tricherie",
+        "degats": 70.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Triplattaque",
+        "degats": 65.0,
+        "energie": 50.0,
+        "bonus": "-1 Att. & -1 Def. (50 %, adversaire)"
+    },
+    {
+        "name": "Triple Axel",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "+1 Att. (10 %, lanceur)"
+    },
+    {
+        "name": "Tunnel",
+        "degats": 70.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Tunnelier",
+        "degats": 80.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Typhon Fulgurant",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "-1 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Typhon Hivernal",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "-1 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Typhon Pyrosable",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "-1 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Ultralaser",
+        "degats": 150.0,
+        "energie": 80.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Vampi-Poing",
+        "degats": 20.0,
+        "energie": 40.0,
+        "bonus": "+1 Def. (100 %, lanceur)"
+    },
+    {
+        "name": "Vampibaiser",
+        "degats": 60.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Végé-Attaque",
+        "degats": 100.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Vent Argenté",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "+1 Att. & +1 Def. (10 %, lanceur)"
+    },
+    {
+        "name": "Vent Glace",
+        "degats": 60.0,
+        "energie": 45.0,
+        "bonus": "-1 Att. (100 %, adversaire)"
+    },
+    {
+        "name": "Vent Mauvais",
+        "degats": 45.0,
+        "energie": 45.0,
+        "bonus": "+1 Att. & +1 Def. (10 %, lanceur)"
+    },
+    {
+        "name": "Vent Violent",
+        "degats": 110.0,
+        "energie": 65.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Vibraqua",
+        "degats": 80.0,
+        "energie": 65.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Vibrobscur",
+        "degats": 80.0,
+        "energie": 50.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Vœu Destructeur",
+        "degats": 75.0,
+        "energie": 40.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Voile Miroir",
+        "degats": 60.0,
+        "energie": 55.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Voix Enjôleuse",
+        "degats": 70.0,
+        "energie": 45.0,
+        "bonus": "none"
+    },
+    {
+        "name": "Vol",
+        "degats": 80.0,
+        "energie": 45.0,
+        "bonus": "none"
+    }
+]
