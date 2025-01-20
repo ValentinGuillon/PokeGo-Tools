@@ -1,0 +1,81 @@
+Attaque ... Dégâts ... Énergie ... Durée
+Aboiement ... 5 ... +13 ... 1.5
+Acide ... 6 ... +5 ... 1.0
+Ailes d'Acier ... 7 ... +7 ... 1.0
+Anti-Air ... 12 ... +8 ... 1.5
+Bâillement ... 0 ... +12 ... 2.0
+Balayage ... 4 ... +5 ... 1.0
+Balle Graine ... 5 ... +13 ... 1.5
+Bélier ... 5 ... +8 ... 1.5
+Cadeau ... 3 ... +12 ... 1.5
+Calcination ... 20 ... +20 ... 2.5
+Cascade ... 12 ... +8 ... 1.5
+Change Éclair ... 12 ... +16 ... 2.0
+Charge ... 3 ... +3 ... 0.5
+Charme ... 15 ... +6 ... 1.5
+Châtiment ... 6 ... +12 ... 1.5
+Choc Mental ... 16 ... +12 ... 2.0
+Coud'Boue ... 11 ... +9 ... 1.5
+Coup Bas ... 5 ... +7 ... 1.0
+Coupe ... 3 ... +2 ... 0.5
+Coupe Psycho ... 3 ... +9 ... 1.0
+Crocs Éclair ... 8 ... +5 ... 1.0
+Crocs Feu ... 8 ... +5 ... 1.0
+Crocs Givre ... 8 ... +5 ... 1.0
+Cru-Ailes ... 5 ... +8 ... 1.0
+Danse Flammes ... 10 ... +10 ... 1.5
+Dard-Venin ... 3 ... +9 ... 1.0
+Direct Toxik ... 7 ... +7 ... 1.0
+Double Pied ... 8 ... +12 ... 1.5
+Draco-Queue ... 13 ... +9 ... 1.5
+Draco-Souffle ... 4 ... +3 ... 0.5
+Éclair ... 3 ... +9 ... 1.0
+Éclate-Roc ... 9 ... +7 ... 1.5
+Éclats Glace ... 9 ... +10 ... 1.5
+Écras'Face ... 4 ... +4 ... 1.0
+Écume ... 8 ... +11 ... 1.5
+Étincelle ... 5 ... +7 ... 1.0
+Étonnement ... 9 ... +10 ... 1.5
+Extrasenseur ... 8 ... +10 ... 1.5
+Feinte ... 6 ... +6 ... 1.0
+Feuillage ... 6 ... +7 ... 1.0
+Feuille Magik ... 10 ... +10 ... 1.5
+Flammèche ... 7 ... +6 ... 1.0
+Forte-Paume ... 13 ... +10 ... 1.5
+Fouet Lianes ... 5 ... +8 ... 1.0
+Géo-Contrôle ... 4 ... +13 ... 1.5
+Griffe ... 4 ... +2 ... 0.5
+Griffe Acier ... 5 ... +6 ... 1.0
+Griffe Ombre ... 6 ... +8 ... 1.0
+Harcèlement ... 6 ... +12 ... 1.5
+Jet-Pierres ... 8 ... +5 ... 1.0
+Jet de Sable ... 2 ... +4 ... 0.5
+Lame d'Air ... 9 ... +9 ... 1.5
+Léchouille ... 3 ... +3 ... 0.5
+Morphing ... 0 ... 0 ... 1.5
+Morsure ... 4 ... +2 ... 0.5
+Picpic ... 6 ... +5 ... 1.0
+Piqûre ... 3 ... +3 ... 0.5
+Pisto-Poing ... 6 ... +7 ... 1.0
+Pistolet à O ... 3 ... +3 ... 0.5
+Poing Karaté ... 5 ... +8 ... 1.0
+Poudreuse ... 5 ... +8 ... 1.0
+Psykoud'Boul ... 8 ... +6 ... 1.5
+Puissance Cachée ... 9 ... +8 ... 1.5
+Queue de Fer ... 10 ... +7 ... 1.5
+Rayon Chargé ... 5 ... +11 ... 1.5
+Riposte ... 8 ... +7 ... 1.0
+Roulade ... 5 ... +13 ... 1.5
+Sheauriken ... 6 ... +14 ... 1.5
+Souffle Glacé ... 7 ... +5 ... 1.0
+Strido-Son ... 3 ... +8 ... 1.0
+Survinsecte ... 9 ... +8 ... 1.5
+Taillade ... 2 ... +4 ... 0.5
+Tir de Boue ... 3 ... +9 ... 1.0
+Tornade ... 16 ... +12 ... 2.0
+Tranch'Herbe ... 10 ... +4 ... 1.0
+Trempette ... 0 ... +12 ... 2.0
+Vague Psy ... 3 ... +2 ... 0.5
+Vent Féérique ... 3 ... +9 ... 1.0
+Verrouillage ... 1 ... +6 ... 0.5
+Vive-Attaque ... 5 ... +8 ... 1.0
