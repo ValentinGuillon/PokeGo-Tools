@@ -1,81 +1,197 @@
-Attaque ... Dégâts ... Énergie ... Durée
-Aboiement ... 5 ... +13 ... 1.5
-Acide ... 6 ... +5 ... 1.0
-Ailes d'Acier ... 7 ... +7 ... 1.0
-Anti-Air ... 12 ... +8 ... 1.5
-Bâillement ... 0 ... +12 ... 2.0
-Balayage ... 4 ... +5 ... 1.0
-Balle Graine ... 5 ... +13 ... 1.5
-Bélier ... 5 ... +8 ... 1.5
-Cadeau ... 3 ... +12 ... 1.5
-Calcination ... 20 ... +20 ... 2.5
-Cascade ... 12 ... +8 ... 1.5
-Change Éclair ... 12 ... +16 ... 2.0
-Charge ... 3 ... +3 ... 0.5
-Charme ... 15 ... +6 ... 1.5
-Châtiment ... 6 ... +12 ... 1.5
-Choc Mental ... 16 ... +12 ... 2.0
-Coud'Boue ... 11 ... +9 ... 1.5
-Coup Bas ... 5 ... +7 ... 1.0
-Coupe ... 3 ... +2 ... 0.5
-Coupe Psycho ... 3 ... +9 ... 1.0
-Crocs Éclair ... 8 ... +5 ... 1.0
-Crocs Feu ... 8 ... +5 ... 1.0
-Crocs Givre ... 8 ... +5 ... 1.0
-Cru-Ailes ... 5 ... +8 ... 1.0
-Danse Flammes ... 10 ... +10 ... 1.5
-Dard-Venin ... 3 ... +9 ... 1.0
-Direct Toxik ... 7 ... +7 ... 1.0
-Double Pied ... 8 ... +12 ... 1.5
-Draco-Queue ... 13 ... +9 ... 1.5
-Draco-Souffle ... 4 ... +3 ... 0.5
-Éclair ... 3 ... +9 ... 1.0
-Éclate-Roc ... 9 ... +7 ... 1.5
-Éclats Glace ... 9 ... +10 ... 1.5
-Écras'Face ... 4 ... +4 ... 1.0
-Écume ... 8 ... +11 ... 1.5
-Étincelle ... 5 ... +7 ... 1.0
-Étonnement ... 9 ... +10 ... 1.5
-Extrasenseur ... 8 ... +10 ... 1.5
-Feinte ... 6 ... +6 ... 1.0
-Feuillage ... 6 ... +7 ... 1.0
-Feuille Magik ... 10 ... +10 ... 1.5
-Flammèche ... 7 ... +6 ... 1.0
-Forte-Paume ... 13 ... +10 ... 1.5
-Fouet Lianes ... 5 ... +8 ... 1.0
-Géo-Contrôle ... 4 ... +13 ... 1.5
-Griffe ... 4 ... +2 ... 0.5
-Griffe Acier ... 5 ... +6 ... 1.0
-Griffe Ombre ... 6 ... +8 ... 1.0
-Harcèlement ... 6 ... +12 ... 1.5
-Jet-Pierres ... 8 ... +5 ... 1.0
-Jet de Sable ... 2 ... +4 ... 0.5
-Lame d'Air ... 9 ... +9 ... 1.5
-Léchouille ... 3 ... +3 ... 0.5
-Morphing ... 0 ... 0 ... 1.5
-Morsure ... 4 ... +2 ... 0.5
-Picpic ... 6 ... +5 ... 1.0
-Piqûre ... 3 ... +3 ... 0.5
-Pisto-Poing ... 6 ... +7 ... 1.0
-Pistolet à O ... 3 ... +3 ... 0.5
-Poing Karaté ... 5 ... +8 ... 1.0
-Poudreuse ... 5 ... +8 ... 1.0
-Psykoud'Boul ... 8 ... +6 ... 1.5
-Puissance Cachée ... 9 ... +8 ... 1.5
-Queue de Fer ... 10 ... +7 ... 1.5
-Rayon Chargé ... 5 ... +11 ... 1.5
-Riposte ... 8 ... +7 ... 1.0
-Roulade ... 5 ... +13 ... 1.5
-Sheauriken ... 6 ... +14 ... 1.5
-Souffle Glacé ... 7 ... +5 ... 1.0
-Strido-Son ... 3 ... +8 ... 1.0
-Survinsecte ... 9 ... +8 ... 1.5
-Taillade ... 2 ... +4 ... 0.5
-Tir de Boue ... 3 ... +9 ... 1.0
-Tornade ... 16 ... +12 ... 2.0
-Tranch'Herbe ... 10 ... +4 ... 1.0
-Trempette ... 0 ... +12 ... 2.0
-Vague Psy ... 3 ... +2 ... 0.5
-Vent Féérique ... 3 ... +9 ... 1.0
-Verrouillage ... 1 ... +6 ... 0.5
-Vive-Attaque ... 5 ... +8 ... 1.0
+Attaque ... Dégâts ... Énergie ... Bonus
+Abattage ... 50 ... 35 ... -1 Att. (50 %, adversaire)
+Acrobatie ... 110 ... 60 ... None
+Aéroblast ... 170 ... 75 ... +2 Att. (12.5 %, lanceur)
+Aéroblast+ ... 170 ... 75 ... +2 Att. (12.5 %, lanceur)
+Aéroblast++ ... 170 ... 75 ... +2 Att. (12.5 %, lanceur)
+Aéropique ... 55 ... 40 ... None
+Aqua-Brèche ... 70 ... 45 ... -1 Def. (30 %, adversaire)
+Aqua-Jet ... 45 ... 45 ... None
+Aurasphère ... 100 ... 55 ... None
+Avalanche ... 90 ... 45 ... None
+Balayette ... 40 ... 40 ... None
+Ball'Brume ... 120 ... 60 ... -1 Att. (50 %, adversaire)
+Ball'Météo ... 55 ... 35 ... None
+Bang Sonique ... 150 ... 70 ... None
+Ball'Ombre ... 100 ... 55 ... None
+Bec Vrille ... 65 ... 40 ... None
+Blizzard ... 140 ... 75 ... None
+Blocage ... 15 ... 40 ... -1 Def. (100 %, adversaire) +1 Def. (100 %, lanceur)
+Bombe Acide ... 20 ... 45 ... -2 Def. (100 %, adversaire)
+Bombe Aimant ... 70 ... 45 ... None
+Bombe Beurk ... 80 ... 50 ... None
+Boue-Bombe ... 60 ... 40 ... None
+Boule Roc ... 50 ... 40 ... None
+Bourdon ... 100 ... 60 ... -1 Def. (30 %, adversaire)
+Bulles d'O ... 25 ... 40 ... -1 Att. (100 %, adversaire)
+Câlinerie ... 90 ... 60 ... None
+Canicule ... 95 ... 75 ... None
+Canon Graine ... 65 ... 45 ... None
+Casse-Brique ... 40 ... 40 ... -1 Def. (100 %, adversaire)
+Cavalerie Lourde ... 100 ... -60 ... None
+Centrifugifle ... 65 ... 40 ... None
+Choc Météore ... 135 ... 65 ... None
+Choc Psy ... 70 ... 45 ... None
+Close Combat ... 100 ... 45 ... -2 Def. (100 %, lanceur)
+Colère ... 110 ... 60 ... None
+Coqui-Lame ... 35 ... 35 ... -1 Def. (50 %, adversaire)
+Coud'Krâne ... 130 ... 75 ... +1 Def. (100 %, lanceur)
+Coup Croix ... 55 ... 35 ... None
+Coup d'Jus ... 65 ... 45 ... None
+Coup Victoire ... 95 ... 40 ... -3 Def. (100 %, lanceur)
+Cradovague ... 110 ... 65 ... None
+Croc de Mort ... 80 ... 50 ... None
+Crochet Venin ... 45 ... 40 ... -1 Def. (100 %, adversaire)
+Danse Plumes ... 35 ... 50 ... -2 Att. (100 %, adversaire)
+Dard Mortel ... 20 ... 35 ... +1 Att. (100 %, lanceur)
+Dark Lariat ... 120 ... 60 ... None
+Déflagration ... 140 ... 80 ... None
+Dernier Recours ... 90 ... 55 ... None
+Désherbaffe ... 65 ... 50 ... +1 Att. (100 %, lanceur)
+Détricanon ... 130 ... 75 ... None
+Détritus ... 50 ... 40 ... None
+Draco-Ascension ... 150 ... 70 ... -1 Def. (100 %, lanceur)
+Draco-Choc ... 90 ... 60 ... None
+Draco-Griffe ... 50 ... 35 ... None
+Draco-Météore ... 150 ... 65 ... -2 Att. (100 %, lanceur)
+Dynamo-Poing ... 90 ... 50 ... None
+Éboulement ... 75 ... 45 ... None
+Ébullition ... 85 ... 50 ... -1 Att. (30 %, adversaire)
+Éclair Croix ... 90 ... 45 ... None
+Éclair Fou ... 100 ... 45 ... -2 Def. (100 %, lanceur)
+Éclat Magique ... 110 ... 70 ... None
+Éco-Sphère ... 90 ... 55 ... -1 Def. (10 %, adversaire)
+Écrasement ... 55 ... 40 ... None
+Écrous d'Poing ... 50 ... 35 ... None
+Élecanon ... 150 ... 80 ... -1 Att. (66 %, adversaire)
+Électacle ... 90 ... 50 ... -1 Def. (100 %, lanceur)
+Ère Glaciaire ... 60 ... 40 ... -1 Att. (100 %, adversaire)
+Esprit Frappeur ... 150 ... 75 ... None
+Exploforce ... 150 ... 75 ... None
+Fatal-Foudre ... 100 ... 60 ... None
+Feu Ensorcelé ... 60 ... 45 ... -1 Att. (100 %, adversaire)
+Feu Sacré ... 130 ... 65 ... -1 Att. (50 %, adversaire)
+Feu Sacré+ ... 130 ... 65 ... -1 Att. (50 %, adversaire)
+Feu Sacré++ ... 130 ... 65 ... -1 Att. (50 %, adversaire)
+Flamme Croix ... 90 ... 45 ... None
+Flying Press ... 90 ... 40 ... None
+Force Poigne ... 40 ... 40 ... None
+Frappe Psy ... 90 ... 45 ... None
+Frustration ... 10 ... 70 ... None
+Fulmigraine ... 130 ... 75 ... -2 Def. (40 %, adversaire)
+Furie-Bond ... 60 ... 45 ... -1 Att. (100 %, adversaire)
+Giga Impact ... 150 ... 80 ... None
+Gyroballe ... 80 ... 60 ... None
+Hurle-Temps ... 150 ... 65 ... None
+Hydro-Queue ... 55 ... 35 ... None
+Hydroblast ... 80 ... 40 ... None
+Hydrocanon ... 130 ... 75 ... None
+Ire de la Nature ... 80 ... 50 ... -1 Def. (100 %, adversaire)
+Koud'Korne ... 40 ... 35 ... None
+Lame de Roc ... 100 ... 55 ... None
+Lame Feuille ... 70 ... 35 ... None
+Lame Pangéenne ... 130 ... 60 ... None
+Lame Sainte ... 60 ... 35 ... None
+Lance-Flammes ... 90 ... 55 ... None
+Lance-Soleil ... 150 ... 80 ... None
+Laser Glace ... 90 ... 55 ... None
+Laser Météore ... 120 ... 60 ... -1 Att. (100 %, lanceur)
+Ligotage ... 60 ... 45 ... None
+Lumi-Éclat ... 120 ... 60 ... -1 Def. (50 %, adversaire)
+Luminocanon ... 110 ... 70 ... None
+Lutte ... 35 ... 100 ... None
+Mâchouille ... 70 ... 45 ... -1 Def. (30 %, adversaire)
+Massd'Os ... 40 ... 35 ... None
+Mégacorne ... 110 ... 55 ... None
+Mégafouet ... 90 ... 50 ... None
+Météores ... 55 ... 40 ... None
+Mort'Ailes ... 85 ... 50 ... None
+Miroi-Tir ... 35 ... 35 ... -1 Att. (30 %, adversaire)
+Nitrocharge ... 65 ... 50 ... +1 Att. (100 %, lanceur)
+Nœud Herbe ... 90 ... 50 ... None
+Ocroupi ... 35 ... 35 ... -1 Att. (30 %, adversaire)
+Octazooka ... 50 ... 50 ... -2 Att. (50 %, adversaire)
+Ombre Nocturne ... 80 ... 45 ... None
+Ombre Portée ... 50 ... 45 ... None
+Onde Boréale ... 80 ... 60 ... None
+Onde Originelle ... 130 ... 60 ... None
+Os'Ombre ... 80 ... 45 ... -1 Def. (20 %, adversaire)
+Ouragan ... 45 ... 45 ... None
+Parabocharge ... 65 ... 55 ... None
+Phytomixeur ... 45 ... 40 ... -2 Att. (50 %, adversaire)
+Pied Brûleur ... 60 ... 40 ... None
+Pied Voltige ... 110 ... 55 ... -4 Def. (10 %, lanceur)
+Piétisol ... 45 ... 45 ... -1 Def. (50 %, adversaire)
+Pince-Masse ... 85 ... 50 ... +2 Att. (12.5 %, lanceur)
+Piqué ... 85 ... 55 ... None
+Plaie Croix ... 65 ... 40 ... None
+Plaquage ... 50 ... 35 ... None
+Poing Boost ... 20 ... 35 ... +1 Att. (100 %, lanceur)
+Poing Éclair ... 60 ... 40 ... None
+Poing Feu ... 60 ... 40 ... None
+Poing Glace ... 60 ... 40 ... None
+Poing Météore ... 100 ... 50 ... None
+Poing Ombre ... 40 ... 35 ... None
+Poison Croix ... 50 ... 35 ... +2 Att. (12.5 %, lanceur)
+Pouvoir Antique ... 60 ... 45 ... +1 Att. & +1 Def. (10 %, lanceur)
+Pouvoir Lunaire ... 110 ... 60 ... -1 Att. (10 %, adversaire)
+Prescience ... 120 ... 65 ... None
+Psycho-Boost ... 70 ... 35 ... -2 Att. (100 %, lanceur)
+Psycho-Croc ... 40 ... 35 ... -1 Def. (100 %, adversaire)
+Psyko ... 75 ... 55 ... -1 Att. (10 %, adversaire)
+Rafale Feu ... 110 ... 50 ... None
+Rafale Psy ... 70 ... 60 ... None
+Rapace ... 130 ... 55 ... -3 Def. (100 %, lanceur)
+Rayon Gemme ... 80 ... 60 ... None
+Rayon Signal ... 75 ... 55 ... -1 Att. & -1 Def. (20 %, adversaire)
+Rayon Spectral ... 135 ... 65 ... None
+Rebondifeu ... 70 ... 55 ... None
+Représailles ... 110 ... 60 ... None
+Retour ... 130 ... 70 ... None
+Revenant ... 120 ... 90 ... None
+Roc-Boulet ... 110 ... 50 ... None
+Roue de Feu ... 60 ... 55 ... None
+Sable Ardent ... 80 ... 50 ... -1 Att. (30 %, adversaire)
+Sacrifice ... 60 ... 50 ... None
+Saumure ... 60 ... 50 ... None
+Séisme ... 110 ... 65 ... None
+Spatio-Rift ... 95 ... 50 ... None
+Stalactite ... 65 ... 40 ... None
+Surchauffe ... 130 ... 55 ... -2 Att. (100 %, lanceur)
+Surf ... 75 ... 45 ... None
+Surpuissance ... 85 ... 40 ... -1 Att. & -1 Def. (100 %, lanceur)
+Synchropeine ... 80 ... 50 ... None
+Tacle Lourd ... 70 ... 50 ... None
+Techno-Buster ... 120 ... 55 ... None
+Telluriforce ... 90 ... 55 ... -1 Def. (10 %, adversaire)
+Tempête Florale ... 110 ... 65 ... None
+Tempête Verte ... 130 ... 55 ... -2 Att. (100 %, lanceur)
+Tête de Fer ... 70 ... 50 ... None
+Tisse Ombre ... 50 ... 40 ... -1 Def. (33 %, adversaire)
+Tomberoche ... 70 ... 60 ... -1 Att. (100 %, adversaire)
+Tonnerre ... 90 ... 55 ... None
+Tourbi-Sable ... 25 ... 40 ... -1 Def. (100 %, adversaire)
+Tranch'Air ... 60 ... 55 ... None
+Tranche-Nuit ... 50 ... 35 ... +2 Att. (12.5 %, lanceur)
+Tricherie ... 70 ... 45 ... None
+Triplattaque ... 65 ... 50 ... -1 Att. & -1 Def. (50 %, adversaire)
+Triple Axel ... 60 ... 45 ... +1 Att. (10 %, lanceur)
+Tunnel ... 70 ... 50 ... None
+Tunnelier ... 80 ... 45 ... None
+Typhon Fulgurant ... 60 ... 45 ... -1 Att. (100 %, adversaire)
+Typhon Hivernal ... 60 ... 45 ... -1 Att. (100 %, adversaire)
+Typhon Pyrosable ... 60 ... 45 ... -1 Att. (100 %, adversaire)
+Ultralaser ... 150 ... 80 ... None
+Vampi-Poing ... 20 ... 40 ... +1 Def. (100 %, lanceur)
+Vampibaiser ... 60 ... 55 ... None
+Végé-Attaque ... 100 ... 45 ... None
+Vent Argenté ... 60 ... 45 ... +1 Att. & +1 Def. (10 %, lanceur)
+Vent Glace ... 60 ... 45 ... -1 Att. (100 %, adversaire)
+Vent Mauvais ... 45 ... 45 ... +1 Att. & +1 Def. (10 %, lanceur)
+Vent Violent ... 110 ... 65 ... None
+Vibraqua ... 80 ... 65 ... None
+Vibrobscur ... 80 ... 50 ... None
+Vœu Destructeur ... 75 ... 40 ... None
+Voile Miroir ... 60 ... 55 ... None
+Voix Enjôleuse ... 70 ... 45 ... None
+Vol ... 80 ... 45 ... None
